@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 
+
 function App() {
   return (
     <div className="app">
@@ -16,10 +17,10 @@ function App() {
       </ul>
       <hr className="light" />
       <p> <span className="black">I checked, what happens if we forget to close a tag...</span><br />they said: <span className="red"> failed to compile</span> </p>
-      <hr  className="light" />
+      <hr className="light" />
       <h5>Time to solve JS expression</h5>
       <p>The sum of two number given i.e 5 and 10 is {10 + 5}</p>
-
+      <br />
     </div>
   );
 }

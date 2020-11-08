@@ -1,4 +1,4 @@
-.app {
+.main {
 text-align: center;
 line-height: 2em;
 margin-top: 40px;
@@ -29,13 +29,21 @@ font-weight: bolder;
 .light{
   opacity: 0.5;
 }
+.bold{
+  font-weight: bolder;
+}
+#short{
+  width: 45%;
+  margin: auto;
+  opacity: 1;
+}
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
 } */
 
 /* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .logo {
     animation: App-logo-spin infinite 20s linear;
   }
 } */
